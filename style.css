@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(154, 89, 215);
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+li {
+  list-style-type: none;
+  border: gold 2px solid;
+  border-radius: 30px;
+  margin: 20px 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+
+#sleepy,
+#hardWorking,
+#long,
+#laughing {
+  padding-bottom: 20px;
+  margin: auto;
+}
